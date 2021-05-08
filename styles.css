@@ -102,7 +102,7 @@ sub {
   }    
   .css-typing p:nth-child(1) {
     width: 100%; /* manually set width */
-    -webkit-animation: type 2s steps(40, end);
+    -webkit-animation: type 5s steps(40, end);
     animation: type 2s steps(40, end);
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
