@@ -101,7 +101,6 @@ sub {
   white-space: nowrap;
   }    
   .css-typing p:nth-child(1) {
-    width: 680px; /* manually set width */
     -webkit-animation: type 2s steps(40, end);
     animation: type 2s steps(40, end);
     -webkit-animation-fill-mode: forwards;
