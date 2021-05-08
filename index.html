@@ -14,9 +14,9 @@
 
 <body>
 <!-- Navbar -->
-<nav class="navbar navbar-default">
+<nav class="navbar navbar-default navbar-fixed-top">
   <div class="container-fluid">
-    <div id="navbar">
+    <div class="courier" id="navbar">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
           <span class="icon-bar"></span>
@@ -27,81 +27,102 @@
       </div>
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="/#experiences">Experiences</a></li>
-          <li><a href="/#projects">Projects</a></li>
+          <li><a href="#experiences">Experiences</a></li>
+          <li><a href="#projects">Projects</a></li>
         </ul>
       </div>
     </div>
   </div>
 </nav>
 
-<!-- Home -->
-<div class="container-fluid">    
-  <div class="row">
-    <div class="col-sm-7">
-    <div id="left">
-      <div class="css-typing">
-        <p>Hi! Nice to meet you :) I'm Belu Ticona, a 5th year computer science student at Univeristy of Buenos aires.</p>
-        <p>I love dancing, teaching and helping other. </p>
-      </div>
-      <div id="social">
-      </div>
-      <div class="txt">
-      <ul>
-      </ul>
-    </div>
-    </div>
-    </div>
-    <div class="col-sm-5">
-      <!-- <div id="right"> <img src="home.png" class="img-responsive" style="width:100%" alt="Image"></div> -->
-    </div>
-  </div>
-</div>
-
-<!-- Experiences -->
-<div class="container-fluid text-center">
-    <div id="experiences">
-      <div class="section-header">experiences</div>
-      <div class=exps>  
-        <div class="exp">
-          <div class="name"><p>Everis Argentina - Data Scientist <span class="tab0">Feb 2021 – present</span></p></div>
-          <ul>
-            <li>Built a 93% accurate Python and SQL tool to automate 95% of internal film ID search</li>
-            <li>Applied regex and nltk function across the pandas data frame to remove punctuation,<br> stop words and trailing spaces from movie titles to account for user input errors  </li>
-          </ul>
+<div class="full-content container-fluid">
+  <!-- Home -->
+  <div class="container-fluid" id="presentation"> 
+  <div class="section-header">About me</div>   
+    <div class="row">
+      <div class="col-sm-8 ">
+      <div id="left">
+        <div class="css-typing ">
+          <p>Hi! Nice to meet you :) I'm Belu Ticona, a 5th year computer science student at University of Buenos Aires.</p>
+          <p>I love dancing, teaching and helping others. </p>
         </div>
-
+        <div id="social">
+        </div>
+        <div class="txt">
+        <ul>
+        </ul>
+      </div>
+      </div>
+      </div>
+      <div class="col-sm-4">
+      <div id="right"> <img src="home.jpg" class="img-responsive img-thumbnail rounded-circle" alt="Image"></div> 
       </div>
     </div>
-</div>
+  </div>
 
-<!-- Projects (Grid) -->
-<div class="container-fluid text-center"> 
-<div id="projects">
-  <h3 class="section-header">&amp; projects</h3><br>
-  <div class="row">
-    <div class="col-sm-4">
-        <div class="project">
-          <div class="description">
-            <div class="project-name"><a href="https://devpost.com/software/dzidzacode">Dzidza Code</a></div>
-            <div class="project-summary">
-              Inspired by a programming course I taught to 15 students in Zimbabwe, my team won UPenn Femme Hacks after creating a web app in <span class="blue">HTML</span>, <span class="blue">CSS</span> and <span class="blue">Python</span> for Zimbabwean students to access free resources to learn programming.
-            </div>
-          </div>
-        </div>      
+  <!-- Timeline Important Events -->
+  <div class="timeline">
+    <div class="container-timeline left">
+      <div class="content-timeline">
+        <h2>2014</h2>
+        <p>Lorem</p>
+      </div>
+    </div>
+    <div class="container-timeline right">
+      <div class="content-timeline">
+        <h2>2016</h2>
+        <p>Lorem ipsum..</p>
+      </div>
     </div>
   </div>
-</div>
-</div>
 
-<!-- Footer -->
-  <div id=footer>
-    <footer class="container-fluid text-center">
-      <div class="email"><a href="mailto:ticona.belu@gmail.com">mticona@dc.uba.ar</a></div>
-      <div class="text">&#169; Copied, pasted and merged by Belu Ticona </div>
-      <div class="text">&#169; Not a web developer, I just know enough to take what I like </div>
-    </footer>
+  <!-- Experiences -->
+  <div class="container-fluid text-center">
+      <div id="experiences">
+        <div class="section-header">experiences</div>
+        <div class=exps>  
+          <div class="exp">
+            <div class="name"><p>Everis Argentina - Data Scientist <span class="tab0">Feb 2021 – present</span></p></div>
+            <ul>
+              <li>Built a 93% accurate Python and SQL tool to automate 95% of internal film ID search</li>
+              <li>Applied regex and nltk function across the pandas data frame to remove punctuation,<br> stop words and trailing spaces from movie titles to account for user input errors  </li>
+            </ul>
+            <div class="name"><p>University of Buenos Aires - Undergraduate Teaching Assistant  <span class="tab0">Mar 2019 – Mar 2021</span></p></div>
+            <ul>
+            </ul>
+          </div>
+
+        </div>
+      </div>
   </div>
 
+  <!-- Projects (Grid) -->
+  <div class="container-fluid text-center"> 
+  <div id="projects">
+    <h3 class="section-header">Projects I loved </h3><br>
+    <div class="row">
+      <div class="col-sm-4">
+          <div class="project">
+            <div class="description">
+              <div class="project-name"><a href="https://devpost.com/software/dzidzacode">Dzidza Code</a></div>
+              <div class="project-summary">
+                Inspired by a programming course I taught to 15 students in Zimbabwe, my team won UPenn Femme Hacks after creating a web app in <span class="blue">HTML</span>, <span class="blue">CSS</span> and <span class="blue">Python</span> for Zimbabwean students to access free resources to learn programming.
+              </div>
+            </div>
+          </div>      
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <!-- Footer -->
+    <div id=footer>
+      <footer class="container-fluid text-center">
+        <div class="email"><a href="mailto:ticona.belu@gmail.com">mticona@dc.uba.ar</a></div>
+        <div class="text">&#169; Copied, pasted and merged by Belu Ticona </div>
+        <div class="text">&#169; Not a web developer, I just know enough to take what I like </div>
+      </footer>
+    </div>
+</div>
 </body>
 </html>

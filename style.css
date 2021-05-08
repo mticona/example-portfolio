@@ -7,7 +7,6 @@ html{
   text-decoration: none;  
 }
 .container-fluid{
-  background-color: #f0e4da;
   padding-top: 25px; 
 }
 @media (min-width:320px){
@@ -29,6 +28,8 @@ sub {
     color: red;
     font-weight: bold;
 }
+
+
 /**Global**/
 
 /**Start Navbar**/
@@ -44,24 +45,12 @@ sub {
   color: #000066; 
 }
 #navbar .navbar-nav li a:hover, #navbar .navbar-header a:hover {
-  color: #0000ff;
+  color: #edf6f9;
 }
 .css-typing a:hover{
-  color: #0000ff;
+  color: #ffddd2;
 }
 /**End Navbar**/
-
-
-/**Start Blog**/
-#blog {
-    min-height: 450px;
-}
-#blog p{
-  font-family: "PT Mono",monospace;
-  font-size: 1.15em;
-  text-align: left;  
-}
-/**End Blog**/
 
 /**Start Footer**/
 #footer .container-fluid{
